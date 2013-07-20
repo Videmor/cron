@@ -19,6 +19,6 @@ set :output, "#{path}/log/cron.log"
 
 # Learn more: http://github.com/javan/whenever
 
-every 2.minutes do
+every 1.minute do
   runner "Client.new_client"
 end

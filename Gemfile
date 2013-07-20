@@ -37,3 +37,6 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 gem 'whenever', require: false
+
+
+gem 'pg', group: :production
