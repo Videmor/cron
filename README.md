@@ -13,3 +13,7 @@ Production:
 
 > bundle exec whenever --update-crontab
 
+Note:
+
+  > rake crones
+
