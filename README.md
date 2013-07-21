@@ -4,7 +4,7 @@ cron
 Cron simple, new client  1 minute
 
 Development:
-> rails s 
+> rails s
 
 > bundle exec whenever --set='environment=development' --update-crontab
 
@@ -13,7 +13,14 @@ Production:
 
 > bundle exec whenever --update-crontab
 
-Note:
+
+Schedule Heroku
+================
 
   > rake crones
 
+
+Clockwork:
+==========
+
+> bundle exec clockwork lib/clock.rb

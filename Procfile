@@ -1,1 +1,1 @@
-cron: bundle exec whenever --update-crontab
+clock: bundle exec clockwork lib/clock.rb
