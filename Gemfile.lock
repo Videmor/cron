@@ -31,6 +31,9 @@ GEM
     arel (3.0.2)
     builder (3.0.4)
     chronic (0.9.1)
+    clockwork (0.5.2)
+      activesupport
+      tzinfo (~> 0.3.35)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -41,6 +44,8 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    faker (1.1.2)
+      i18n (~> 0.5)
     hike (1.2.3)
     i18n (0.6.4)
     journey (1.0.4)
@@ -108,7 +113,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  clockwork
   coffee-rails (~> 3.2.1)
+  faker
   jquery-rails
   pg
   rails (= 3.2.8)

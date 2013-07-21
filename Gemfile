@@ -40,3 +40,6 @@ gem 'whenever', require: false
 
 
 gem 'pg', group: :production
+
+gem 'clockwork'
+gem "faker"

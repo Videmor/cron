@@ -1,4 +1,6 @@
 Cron::Application.routes.draw do
+  resources :users
+
   resources :clients
 
   # The priority is based upon order of creation:
