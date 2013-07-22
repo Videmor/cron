@@ -2,7 +2,7 @@ cron
 ====
 
 
-whenever
+whenever(not heroku)
 ========
 
 * new client 1 minute
@@ -21,14 +21,19 @@ Production:
 Schedule Heroku
 ================
 
-  * Cron simple, new client  10 minute
+  * Cron simple, new client  10 minutes
 
   > rake crones
 
 
-Clockwork:
+Clockwork:(with job)
 ==========
 
 > bundle exec clockwork lib/clock.rb
 
 * new user 1 minute
+
+
+Job link
+==========
+http://0.0.0.0:3000/process/index
