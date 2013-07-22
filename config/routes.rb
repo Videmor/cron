@@ -1,4 +1,6 @@
 Cron::Application.routes.draw do
+  get "process/index"
+
   resources :users
 
   resources :clients

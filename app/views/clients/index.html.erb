@@ -2,6 +2,7 @@
 
 <table>
   <tr>
+    <th>Id</th>
     <th>Name</th>
     <th>Age</th>
     <th></th>
@@ -11,6 +12,7 @@
 
 <% @clients.each do |client| %>
   <tr>
+    <td><%= client.id %></td>
     <td><%= client.name %></td>
     <td><%= client.age %></td>
     <td><%= link_to 'Show', client %></td>

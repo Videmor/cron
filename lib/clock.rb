@@ -11,4 +11,4 @@ handler do |job|
   puts "Running #{job}"
 end
 
-every(1.minute, 'clockes'){ User.new_user }
+every(1.minute, 'clockes'){ User.delay.new_user }

@@ -1,7 +1,11 @@
 cron
 ====
 
-Cron simple, new client  1 minute
+
+whenever
+========
+
+* new client 1 minute
 
 Development:
 > rails s
@@ -17,6 +21,8 @@ Production:
 Schedule Heroku
 ================
 
+  * Cron simple, new client  10 minute
+
   > rake crones
 
 
@@ -24,3 +30,5 @@ Clockwork:
 ==========
 
 > bundle exec clockwork lib/clock.rb
+
+* new user 1 minute

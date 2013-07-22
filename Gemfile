@@ -43,3 +43,5 @@ gem 'pg', group: :production
 
 gem 'clockwork'
 gem "faker"
+
+gem 'delayed_job_active_record'
